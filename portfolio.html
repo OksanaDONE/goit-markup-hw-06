@@ -327,22 +327,20 @@
               </li>
             </ul>
           </div>
-          <div>
-            <label for="mail-input" class="input-fild">Підпишіться на розсилку</label>
-            <ul class="mail-button-footer">
-              <li class="modal-item-footer list">
-                  <input type="mail" name="mail" id="user-mail" placeholder="E-mail" class="input-data-footer" required />
-              </li>
-              <li>
-                <div class="wraper-mail">
-                  <button type="submit" class="modal-sumbit-footer"><span class="button-text-footer">Підписатися</span></button>
-                  <svg class="svg-mail-footer">
-                    <use href="./images/icons.svg#icon-send"></use>
-                  </svg>
-                </div>
-              </li>
-            </ul>
-          </div>
+          <form name="contact_form" class="mail-button-footer">
+            <div class="input-wraper">
+              <label for="email-input" class="input-fild">Підпишіться на розсилку</label>
+              <input type="email" name="mail" id="email-input" placeholder="E-mail" class="input-data-footer"
+                required />
+              </div>
+            <div class="wraper-mail">
+              <button type="submit" class="modal-sumbit-footer"><span
+                  class="button-text-footer">Підписатися</span></button>
+              <svg class="svg-mail-footer">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </div>
+          </form>
         </div>
       </div>
     </footer>

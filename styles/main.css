@@ -652,6 +652,7 @@ ol {
 .close-sign:hover .svg-close,
 .close-sign:focus .svg-close {
     fill: var(--accent-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .is-hidden {
@@ -692,6 +693,7 @@ ol {
 
 .input-data:focus {
     border: 1px solid #2196F3;
+
 }
 
 .modal-feedback {
@@ -910,6 +912,7 @@ ol {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     margin-right: 0px;
+    outline: none;
 }
 
 .input-wraper{
