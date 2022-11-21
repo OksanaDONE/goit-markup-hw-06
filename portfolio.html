@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-    <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
@@ -20,7 +19,6 @@
   </head>
   <body>
     <!-- це заголовок -->
-
     <header class="page-header">
       <div class="container">
         <a href="/index.html" class="link-logo link"><span>Web</span>Studio</a>
@@ -327,23 +325,20 @@
               </li>
             </ul>
           </div>
-          <form name="contact_form" class="mail-button-footer">
-            <div class="input-wraper">
-              <label for="email-input" class="input-fild">Підпишіться на розсилку</label>
-              <input type="email" name="mail" id="email-input" placeholder="E-mail" class="input-data-footer"
-                required />
-              </div>
-            <div class="wraper-mail">
-              <button type="submit" class="modal-sumbit-footer"><span
-                  class="button-text-footer">Підписатися</span></button>
-              <svg class="svg-mail-footer">
-                <use href="./images/icons.svg#icon-send"></use>
-              </svg>
-            </div>
-          </form>
+          <div class="button-footer">
+            <p class="input-fild">Підпишіться на розсилку</p>
+            <form name="contact_form" class="mail-button-footer">
+              <input type="email" name="mail" id="email-input" placeholder="E-mail" class="input-data-footer">
+              <button type="submit" class="modal-sumbit-footer">
+                <span class="button-text-footer">Підписатися</span>
+                <svg class="svg-mail-footer">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+              </form>
+          </div>
         </div>
       </div>
     </footer>
-  </main>
 </body>
 </html>
